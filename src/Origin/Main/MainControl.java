@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Main;
+package origin.Main;
 
-import Source.VaccineInjectionList;
-import Support.SupportMethod;
+import origin.Source.VaccineInjectionList;
+import origin.Support.SupportMethod;
 import java.io.FileNotFoundException;
 
 /**

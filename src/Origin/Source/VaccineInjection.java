@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Source;
+package origin.Source;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -12,6 +12,7 @@ import java.util.Date;
  *
  * @author admin
  */
+
 public class VaccineInjection extends Vaccine implements Serializable{
     private String VaccineInjectionID;
     private String firstPlace;

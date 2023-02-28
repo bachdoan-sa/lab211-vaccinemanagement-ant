@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Support;
+package origin.Support;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -17,7 +17,7 @@ import java.util.StringTokenizer;
  */
 public class SupportMethod {
     Scanner sc = new Scanner(System.in);
-    java.util.Date date=new java.util.Date(); 
+    java.util.Date date = new java.util.Date(); 
     public Date catchDate(){
         String format; Date d = null; int c;
         int day, month, year;

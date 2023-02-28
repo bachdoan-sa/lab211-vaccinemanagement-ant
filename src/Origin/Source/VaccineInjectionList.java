@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Source;
+package origin.Source;
 
-import Support.SupportMethod;
+import origin.Support.SupportMethod;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
@@ -71,14 +71,12 @@ public class VaccineInjectionList{
         Vaccine vac = new Vaccine(ID,name);
         vaccineList.add(vac);
     }
-
     public void readVaccineList(){
         System.out.printf("%-13s %-13s\n","VaccineID","VaccineName");
         for(Vaccine s : vaccineList){
             System.out.printf("%-13s %-13s\n",s.getVaccineID(),s.getVaccineName());
         }
     }
-    
     public void writeStudent(){
         String fileName="student.dat";
         try{

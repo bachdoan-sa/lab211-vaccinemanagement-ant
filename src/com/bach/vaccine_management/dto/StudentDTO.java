@@ -1,21 +1,19 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Source;
+package com.bach.vaccine_management.dto;
 
 import java.io.Serializable;
 
-
 /**
  *
- * @author admin
+ * @author AN515-57
  */
-public class Student implements Serializable{
+public class StudentDTO implements Serializable{
     private String studentID;
     private String studentName;
-
+    //getter & setter
     public String getStudentID() {
         return studentID;
     }
@@ -28,25 +26,19 @@ public class Student implements Serializable{
     public void setStudentName(String studentName) {
         this.studentName = studentName;
     }
+    //Constructer
+    public StudentDTO(){
+    }
 
-   
-    
-    public Student(){}
-
-    public Student(String studentID, String studentName) {
+    public StudentDTO(String studentID, String studentName) {
         this.studentID = studentID;
         this.studentName = studentName;
     }
-
+    //ToString()
     @Override
     public String toString() {
-        return "Student{" + "studentID=" + studentID + ", studentName=" + studentName + "}";
+        return "StudentDTO{" + "studentID=" + studentID + ", studentName=" + studentName + "}";
     }
-
-
     
-
-    
-    
-    
+    //End of class StudentDTO 
 }
